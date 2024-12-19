@@ -1,0 +1,601 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+/* header */
+
+.container {
+    background:linear-gradient(to bottom, rgba(255, 255, 255, 0) 50%, rgb(19, 19, 19) 100%), 
+    url('img/6134943\ 1.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2rem;
+}
+.background {
+    height: 800px;
+    max-width: 1400px;
+    margin: auto;
+    width: 100%;
+}
+
+.logoimg{
+    width: 50px;
+    border-radius: 15px;
+    transition: all 0.2s ease-in-out;
+}
+
+.logo img:hover {
+    transform:scale(1.09) rotate(10deg);
+    cursor: pointer;
+}
+
+.ul-li ul {
+    display: flex;
+    gap: 30px;
+}
+
+.ul-li li:hover {
+    color: red;
+    cursor: pointer;
+}
+
+/* section1 */
+
+.container2 {
+    max-width: 1400px;
+    margin: auto;
+    width: 100%;
+    margin-top: -43rem;
+}
+
+.card {
+    width: 700px;
+    height: 500px;
+    margin-left: 20rem;
+    background-color: rgba(27, 27, 27, 0.5);
+    border-radius: 20px;
+    margin-top: 4rem;
+}
+
+.text {
+    width: 500px;
+    padding-left: 6rem;
+    line-height: 25px;
+    padding-top: 5.2rem;
+    color: rgb(234, 234, 234);
+}
+
+.text:hover {
+    cursor: default;
+}
+
+.text h1:nth-child(1) {
+    margin-bottom: 1.5rem;
+    font-size: 30px;
+}
+
+.texh1:nth-child(1):hover {
+    cursor: cell;
+}
+
+.text p:nth-child(2) {
+    margin-bottom: .5rem;
+}
+
+.text p:nth-child(3) {
+    margin-bottom: .5rem;
+}
+
+.text p:nth-child(4) {
+    margin-bottom: .5rem;
+}
+
+.text p:nth-child(5) {
+    margin-bottom: .5rem;
+}
+
+.text p:nth-child(6) {
+    margin-bottom: .5rem;
+}
+
+/* section2 */
+
+.section2 {
+    background-image: 
+        linear-gradient(to top, rgba(255, 255, 255, 0) 50%, rgb(0, 0, 0) 100%), 
+        url('img/best-time-of-year-to-visit-rome-italy-min.jpg');
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+    url('img/best-time-of-year-to-visit-rome-italy-min.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin-top: 50.5rem;
+}
+
+.image img {
+    width: 650px;
+    border-radius: 25px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5rem;
+    gap: 40px;
+}
+
+.text-flex {
+    color: rgb(236, 236, 236);
+    font-size: 23px;
+    font-weight: 520;
+    width: 550px;
+}
+
+.text-flex h1 {
+    font-size: 35px;
+    margin-bottom: .5rem
+}
+
+.text-flex:hover {
+    cursor: default;
+}
+
+.text-flex p:nth-child(2) {
+    margin-bottom: .8rem;
+    font-size: 20px;
+}
+
+.text-flex p {
+    font-size: 20px;
+}
+
+.info {
+    line-height: 35px;
+}
+
+/* section3 */
+
+.section3 {
+    margin-top: 43rem;
+    height: 60rem;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+    url('img/iStock-1414575281.avif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flex-card1 {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 9rem;
+}
+
+/* card1 */
+
+.cards1 {
+    background: linear-gradient( rgba(220, 220, 220, 0.7),rgb(220, 220, 220)100%);
+    width: 250px;
+    height: 270px;
+    border-radius: 20px;
+    padding-top: 2rem;
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.05s;
+}
+
+.cards1 img {
+    margin-top: -6.5rem;
+    margin-left: 1.2rem;
+}
+
+.cards-text {
+    width: 170px;
+    justify-content: center;
+    padding-left: 2.5rem;
+    line-height: 22px;
+}
+
+.cards-text h2 {
+    margin-bottom: .5rem;
+}
+
+/* card2 */
+
+.cards2 {
+    background: linear-gradient( rgba(220, 220, 220, 0.7),rgb(220, 220, 220)100%);
+    width: 250px;
+    height: 270px;
+    border-radius: 20px;
+    padding-top: 2rem;
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.05s;
+}
+
+.cards2 img {
+    margin-top: -6.5rem;
+    margin-left: 1.5rem;
+}
+
+.cards-text {
+    width: 170px;
+    justify-content: center;
+    padding-left: 2.5rem;
+    line-height: 22px;
+}
+
+.cards-text h2 {
+    margin-bottom: .5rem;
+}
+
+/* card3 */
+
+.cards3 {
+    background: linear-gradient( rgba(220, 220, 220, 0.7),rgb(220, 220, 220)100%);
+    width: 250px;
+    height: 270px;
+    border-radius: 20px;
+    padding-top: 2rem;
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.05s;
+}
+
+.cards3 img {
+    margin-top: -6.5rem;
+    margin-left: 1.7rem;
+}
+
+.cards-text {
+    width: 170px;
+    justify-content: center;
+    padding-left: 2.5rem;
+    line-height: 22px;
+}
+
+.cards-text h2 {
+    margin-bottom: .5rem;
+}
+
+
+.flex-card2 {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 7rem;
+}
+
+
+/* card4 */
+
+.cards4 {
+    background: linear-gradient( rgba(220, 220, 220, 0.7),rgb(220, 220, 220)100%);
+    width: 250px;
+    height: 270px;
+    border-radius: 20px;
+    padding-top: 2rem;
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.05s;
+}
+
+.cards4 img {
+    margin-top: -6.5rem;
+    margin-left: 1.9rem;
+}
+
+.cards-text {
+    width: 170px;
+    justify-content: center;
+    padding-left: 2.5rem;
+    line-height: 22px;
+}
+
+.cards-text h2 {
+    margin-bottom: .5rem;
+}
+
+/* card5 */
+
+.cards5 {
+    background: linear-gradient( rgba(220, 220, 220, 0.7),rgb(220, 220, 220)100%);
+    width: 250px;
+    height: 270px;
+    border-radius: 20px;
+    padding-top: 2rem;
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.05s;
+}
+
+.cards5 img {
+    margin-top: -6.5rem;
+    margin-left: 1.5rem;
+}
+
+.cards-text {
+    width: 170px;
+    justify-content: center;
+    padding-left: 2.5rem;
+    line-height: 22px;
+}
+
+.cards-text h2 {
+    margin-bottom: .5rem;
+}
+
+/* card6 */
+
+.cards6 {
+    background: linear-gradient( rgba(220, 220, 220, 0.7),rgb(220, 220, 220)100%);
+    width: 250px;
+    height: 270px;
+    border-radius: 20px;
+    padding-top: 2rem;
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.05s;
+}
+
+.cards6 img {
+    margin-top: -6.5rem;
+    margin-left: 1.7rem;
+}
+
+.cards-text {
+    width: 170px;
+    justify-content: center;
+    padding-left: 2.5rem;
+    line-height: 22px;
+}
+
+.cards-text h2 {
+    margin-bottom: .5rem;
+}
+
+
+/* hover */
+
+.cards1:hover {
+    transform: scale(0.93);
+    cursor: pointer;
+}
+
+.cards2:hover {
+    transform: scale(0.93);
+    cursor: pointer;
+}
+
+.cards3:hover {
+    transform: scale(0.93);
+    cursor: pointer;
+}
+
+.cards4:hover {
+    transform: scale(0.93);
+    cursor: pointer;
+}
+
+.cards5:hover {
+    transform: scale(0.93);
+    cursor: pointer;
+}
+
+.cards6:hover {
+    transform: scale(0.93);
+    cursor: pointer;
+}
+
+
+/* footer */
+
+.container8 {
+    margin: auto;
+    background-image: url(img/Rectangle\ 27.png);
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    background-color: gray;
+    height: 600px;
+}
+
+.pp_flex {
+    display: flex;
+    gap: 15px;
+    color: rgb(132, 132, 132);
+    margin-top: 1.5rem;
+    line-height: 27px
+}
+
+.footer_titles_df {
+    padding-top: 4rem;
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.footer_images {
+    width: 40px;
+}
+
+.footer_imagess {
+    display: flex;
+    gap: 20px;
+    margin-top: 1rem;
+}
+
+.footer_h2 {
+    color: white;
+    font-size: 18px;
+}
+
+.pp_batle {
+    color: rgb(132, 132, 132);
+    margin-top: 1.5rem;
+    line-height: 27px;
+}
+
+.pi {
+    width: 200px;
+}
+
+.footer_imagesss {
+    width: 60px;
+    margin-top: -.6rem;
+}
+
+.phone strong {
+    color: #00D285;
+}
+
+.phone {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 1rem;
+    color: white;
+}
+
+.footer_h2:hover {
+    cursor: default;
+}
+
+.email:hover {
+    cursor: default;
+}
+
+.phone p:hover {
+    cursor: default;
+}
+
+.email {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 1rem;
+    color: white;
+}
+
+.loremcha {
+    color: #00D285;
+}
+
+.all_rights {
+    max-width: 1400px;
+    margin: auto;
+    width: 100%;
+    margin-top: -3rem;
+    color: white;
+}
+
+.all {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.all p:hover {
+    cursor: pointer;
+}
+
+.rectangle8930 {
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+}
+
+.imgped img {
+    border-radius: 20px;
+    width: 70px;
+}
+
+.imgped:hover {
+    cursor: pointer;
+}
+
+.rectangle8930 img {
+    position: absolute;
+    width: 1123px;
+    height: 495px;
+    margin-top: -30rem;
+}
+
+.footer_titles_df {
+    background-image: url(img/planet.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.ahrf0 {
+    color: rgb(132, 132, 132);
+}
+
+.ahrf0:hover {
+    color: white;
+}
+
+.ahrf20 {
+    color: #00D285;
+}
+
+.ahrf20:hover {
+    color: white;
+}
+
+.ahrf30 {
+    color: white;
+}
+
+.ahrf30:hover {
+    color: #00D285;
+}
+
+.petroo {
+    display: flex;
+    gap: 10px;
+    margin-top: 5rem;
+    margin-left: 1rem;
+}
+
+.loremchao {
+    color: #00D285;
+}
+
+.all_rights p:hover {
+    cursor: pointer;
+}
+
+.all {
+    display: flex;
+}
+
+.Salom {
+    color: white;
+}
+
+.verh img {
+    margin-top: -6rem;
+}
